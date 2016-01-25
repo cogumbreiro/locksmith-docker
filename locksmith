@@ -1,0 +1,7 @@
+#!/bin/bash
+IMG=locksmith
+VOLUME="$PWD"
+
+docker run -v "${VOLUME}:/home" \
+	-it --rm ${IMG} locksmith "$@"
+
