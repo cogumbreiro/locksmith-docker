@@ -3,5 +3,5 @@ VOLUME="$PWD"
 
 IMG=locksmith
 docker run -v "${VOLUME}:/home" \
-	-it --rm ${IMG} locksmith "$@"
+	-it --rm ${IMG} lockpick "$@"
 
