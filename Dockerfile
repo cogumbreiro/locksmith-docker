@@ -11,6 +11,9 @@ RUN apt-get update && \
       bison \
       flex \
       indent \
+      python \
+      ocaml-findlib \
+      libyojson-ocaml-dev \
     && \
     git clone https://github.com/cogumbreiro/locksmith/
 
