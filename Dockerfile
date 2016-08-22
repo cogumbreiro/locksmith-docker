@@ -1,5 +1,4 @@
-FROM ubuntu:12.04
-#FROM parkayun/ubuntu-11.04
+FROM ubuntu:15.04
 MAINTAINER Tiago Cogumbreiro
 
 RUN apt-get update && \
